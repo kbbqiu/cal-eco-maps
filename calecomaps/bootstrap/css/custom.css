@@ -1,0 +1,21 @@
+body {
+  padding-top: 60px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+div#welcome {
+	background-color: #8de2ff;
+}
+
+h1 {
+	text-shadow: 1px 1px #808080;
+	text-align: center;
+}
+
+p#we {
+	color:white;
+	text-align:center;
+}

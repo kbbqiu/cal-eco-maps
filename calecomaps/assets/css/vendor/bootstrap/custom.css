@@ -1,0 +1,190 @@
+body {
+  padding-top:70px;
+
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}
+
+/*div#welcome {
+	background-image: url("/assets/img/bluestripes.jpg");
+}*/
+
+h1 {
+	text-shadow: 1px 1px #808080;
+	text-align: center;
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26.3999996185303px;
+	color: #ffffff;
+}
+
+h2 {
+	font-family: Arial, 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26.3999996185303px;
+	text-align: left;
+	/*text-shadow: 1px 1px #808080;*/
+
+}
+
+
+#div1 {
+	width: 90%;
+}
+
+p#welcometext {
+	color:white;
+	text-align:center;
+}
+
+.mainheader {
+	padding: 34px 0;
+	/*background: url("../img/color29.jpg") no-repeat scroll center center / cover #00467f;*/
+	background: url("http://slowbuddy.com/wp-content/gallery/plain-background/4567766846.jpg") no-repeat fixed center center; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	color: #9d9d9d;
+	margin-bottom: 30px;
+}
+
+
+
+/*IMPORTANT: Color of the navbar OG:48b7ee*/
+.navbar .container-fluid {
+	background-color: #5abeef;
+	-moz-box-shadow: 0 0 10px 3px #a3a3a3;
+-webkit-box-shadow: 0 0 10px 3px #a3a3a3;
+}
+
+.navbar .navbar-header .navbar-brand {
+	color: white;
+}
+
+/*Another important things: lighter shade of navbar color is #7eccf3;*/
+
+
+
+
+
+/*.navbar .nav > li > a {
+	color: #fff;
+}*/
+
+
+
+/*.container .navbar-header {
+	background-color: #31708F;
+}*/
+
+
+/*.navbar-brand {
+	color: white;
+}*/
+
+/*.navbar-custom .navbar-text {
+	color: white;
+}*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*.navbar .navbar-fixed-top .navbar-default > li > a {
+	background-color: #31708F;
+}*/
+
+
+/*This sets the height of the navbar*/
+.navbar-nav > li > a, .navbar-brand {
+    padding-top:17px !important; 
+    padding-bottom:0 !important;
+    height: 55px;
+}
+.navbar {min-height:70px !important;}
+
+
+
+
+
+
+/*This is the entire .navbar-default .navbar-nav section in the bootstrap file*/
+.navbar .navbar-nav > li > a {
+  color: #fff;
+  font-size: 15px;
+}
+.navbar .navbar-nav > li > a:hover,
+.navbar .navbar-nav > li > a:focus {
+  color: #fff;
+  background-color: transparent;
+  font-size: 18px;
+}
+.navbar .navbar-nav > .active > a,
+.navbar .navbar-nav > .active > a:hover,
+.navbar .navbar-nav > .active > a:focus {
+  color: #e448ee;
+  background-color: #e7e7e7;
+}
+.navbar .navbar-nav > .disabled > a,
+.navbar .navbar-nav > .disabled > a:hover,
+.navbar .navbar-nav > .disabled > a:focus {
+  color: #e448ee;
+  background-color: transparent;
+}
+/*@media (max-width: 767px) {
+  .bootstrap .navbar-default .navbar-nav .open .dropdown-menu > li > a {
+    color: #777;
+  }
+  .bootstrap .navbar-default .navbar-nav .open .dropdown-menu > li > a:hover,
+  .bootstrap .navbar-default .navbar-nav .open .dropdown-menu > li > a:focus {
+    color: #333;
+    background-color: transparent;
+  }
+  .bootstrap .navbar-default .navbar-nav .open .dropdown-menu > .active > a,
+  .bootstrap .navbar-default .navbar-nav .open .dropdown-menu > .active > a:hover,
+  .bootstrap .navbar-default .navbar-nav .open .dropdown-menu > .active > a:focus {
+    color: #555;
+    background-color: #e7e7e7;
+  }
+  .bootstrap .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a,
+  .bootstrap .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+  .bootstrap .navbar-default .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+    color: #ccc;
+    background-color: transparent;
+  }
+}
+.bootstrap .navbar-default .navbar-link {
+  color: #777;
+}
+.bootstrap .navbar-default .navbar-link:hover {
+  color: #333;
+}*/
+
+
+
+
+
+.panel-title {
+	font-size: 30px;
+}

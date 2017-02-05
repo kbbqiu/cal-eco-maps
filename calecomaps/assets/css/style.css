@@ -1,0 +1,541 @@
+
+h1 {
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26.3999996185303px;
+	color:white;
+}
+
+h2 {
+	font-family: 'Avant Garde', Avantgarde, 'Century Gothic', CenturyGothic, AppleGothic, sans-serif;
+	font-size: 24px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	line-height: 26.3999996185303px;
+}
+
+
+
+
+.navbar {
+  margin-bottom: 20px;
+  z-index: 2
+}
+
+
+.wrapper {
+	width: 80%;
+	margin: 20px auto;
+	
+}
+.subheading {
+	font-size: 22px;
+	font-weight: bold;
+    color:#666666;
+	/*text-transform: uppercase;*/
+
+
+}
+
+
+div#welcome {
+	
+}
+
+#welcome {
+	background-color: 666666; 
+}
+
+#map {
+	margin: 0 auto; 
+	width:100%; 
+	height:600px;
+	/*border: 1px solid #000;*/
+	z-index: 1
+	padding-top: 0px;
+	/*border-radius: 10px;*/
+	
+}
+
+div#chemicals {
+	width:80%;
+	margin: 0 auto;
+}
+
+#Table, #PIECV, #TotalQuantityReleased, #PWMPV {
+	padding: 10px;
+	margin-left: auto ;
+    margin-right: auto ;
+}
+
+
+#Table {
+	width: 80%;
+	margin-left: auto ;
+    margin-right: auto ;
+	
+}
+
+
+.google-visualization-table-tr-head {
+	font-size:16px;
+	font-weight: 30px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: black;
+}
+
+.google-visualization-table-table {
+	border: 4px solid #3887BE;
+	padding: 5px 5px 5px 5px;
+	margin: 0 auto;
+	width: 80%;
+	border-radius: 20px;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: bold;
+	color: #303030;
+} 
+
+.google-visualization-table-td  span {
+	display: block;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+}
+
+
+#PIECV {
+	width: 600px;
+	
+	
+}
+
+#TotalQuantityReleased {
+	width: 600px;
+	margin-left: auto ;
+    margin-right: auto ;
+	
+}
+
+.TABLEPIE{
+	margin-left: auto ;
+    margin-right: auto ;
+	width:1250px
+	
+
+}
+
+
+#PWMPV {
+	width: 600px; 
+	margin-left: auto ;
+    margin-right: auto ;
+	
+}
+
+.CompanyName-TypeIndustry {
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	overflow: hidden;
+	width: 100%
+	
+}
+
+@media only screen and (max-width : 1263px) {
+	.CompanyName-TypeIndustry {
+	height: auto;
+	overflow: visible;
+	width: 800px
+}
+}
+
+#CompanyName{ 
+	text-align: left;
+	float: left;
+	width: auto;
+	margin-bottom: 15px;
+	
+}
+
+@media only screen and (max-width : 1263px) {
+/* Styles */
+#CompanyName{ 
+	text-align: left;
+	float: none;
+	display: block;
+}
+}*/
+#SCORE{
+float: left;
+}
+
+#SCORE h3{
+margin-bottom: 0px;
+margin-top: 0px;
+/*font-weight: bold;*/
+/*font-size: 1.5em;*/
+float: left;
+width: 100%;
+}
+
+#TypeIndustry {
+	float: left;
+	width: 100%;
+	margin-bottom: 7px;
+}
+	#CompanyName h2 {
+	margin-bottom: 10px;
+	margin-top: 10px;
+	/*color: #ffb300;*/
+}
+	#TypeIndustry h3 {
+	margin-bottom: 15px;
+	margin-top: 10px;
+	/*text-transform: uppercase;*/
+	/*<!--color: #539865;-->*/
+}	
+@media only screen and (max-width : 1263px) {
+
+	/*#TypeIndustry ,#SCORE{
+	float: left;
+	display: block;
+	text-align; left;
+}
+	#CompanyName h2 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+	#TypeIndustry h2, #SCORE h2 {
+	margin-bottom: 0;
+	margin-top: 0;
+}*/
+#TypeIndustry{
+
+width: 100%
+
+}
+.TABLEPIE{
+	margin-left: auto ;
+    margin-right: auto ;
+	width:600px
+	}
+}
+
+/*
+.nav {
+font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.navbar-custom {
+	background-color: #3f93f2;
+	border-color: #ffffff;
+}
+.navbar-custom .navbar-brand {
+	color: #ffffff;
+}
+.navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus {
+	color: #edebeb;
+	
+}
+
+.navbar-custom .navbar-text {
+	color: #ffffff;
+}
+.navbar-custom .navbar-nav > li > a {
+	color: #ffffff;
+}
+.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus {
+	color: #ffffff;
+	background-color: #5aab5c;
+	
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-custom .navbar-nav > .active > a:hover, .navbar-custom .navbar-nav > .active > a:focus {
+	color: #5aab5c;
+	background-color: #5aab5c;
+}
+.navbar-custom .navbar-nav > .open > a, .navbar-custom .navbar-nav > .open > a:hover, .navbar-custom .navbar-nav > .open > a:focus {
+	color: #ffffff;
+	background-color: #5aab5c;
+}
+.navbar-custom .navbar-toggle {
+	border-color: #5aab5c;
+}
+.navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
+	background-color: #5aab5c;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+	border-color: #ffffff;
+}
+.navbar-custom .navbar-link {
+	color: #ffffff;
+}
+.navbar-custom .navbar-link:hover {
+	color: #edebeb;
+}
+
+@media (max-width: 767px) {
+	.navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+		color: #ffffff;
+		
+	}
+	.navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #edebeb;
+		background-color: #5aab5c;
+	}
+	.navbar-custom .navbar-nav .open .dropdown-menu > .active > a, .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #edebeb;
+		background-color:#5aab5c;
+	}
+
+}
+*/
+.login {
+text-align: right;
+}
+
+.teamPhoto
+{
+    text-align:center;
+    float:middle;
+    padding:1em;
+    width:90%;
+    margin:auto;
+}
+
+.indivBioPic
+
+{
+vertical-align:middle;
+width:20%;
+height:auto;
+padding-top:3%;
+padding-bottom:1em;
+}
+
+#floatRight
+
+{
+  float:right;
+}
+
+#floatLeft
+
+{
+  float:left;
+}
+
+
+.TextBox
+
+{
+  width:78%;
+  height:auto;
+  vertical-align:middle;
+  padding-top:3%;
+
+}
+
+#ImageRight
+
+{
+  
+  text-align:right;
+  float:left;
+ 
+
+
+}
+
+#ImageLeft
+
+{ 
+  
+  text-align:left;
+  float:right;
+
+}
+
+.HorizontalLine
+{
+  width:100%;
+  height:0.2em;
+}
+
+#ToxicReleases, #Revenue, #Employee, #PWMA, #CancerRisk, #TPounds
+{
+width: 80%;
+height: 500px;
+margin: auto;
+}
+
+#headerlogos
+{
+float: right;
+}
+
+#Note
+{
+width: 100%;
+float: left;
+}
+
+.bootstrap .dropdown-menu > li > t{
+display: block;
+padding: 3px 20px;
+clear: both;
+font-weight: bold;
+line-height: 1.42857143;
+color: white ;
+white-space: nowrap;
+}
+
+#footer
+{
+text-align: center;
+width: 100%;
+margin-bottom: 1em;
+margin-top: 5em;
+margin-left: auto;
+margin-right: auto;
+height:40px;   /* Height of the footer */
+background:#5abeef;
+float: left;
+padding-top: .6cm;
+}
+
+#footer a
+{
+color: white
+} 
+
+
+#top
+{
+float: right;
+
+}
+
+#top2{
+text-align: right;
+width: 100%;
+margin-left: auto;
+margin-right: auto;
+float: left
+
+}
+
+#noteimpact{
+float:left;
+width:100%
+}
+
+.timeline {
+    width: 400px;
+}
+.timeline .timeline-item {
+    width: 100%;
+}
+.timeline .timeline-item .info, .timeline .timeline-item .year {
+    color: #eee;
+    display: block;
+    float:left;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.timeline .timeline-item.close .info, .timeline .timeline-item.close .year {
+    color: #ccc;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.timeline .timeline-item .year {
+    font-size: 24px;
+    font-weight: bold;
+    width: 22%;
+}
+.timeline .timeline-item .info {
+    width: 100%;
+    width: 78%;
+    margin-left: -2px;
+    padding: 0 0 40px 35px;
+    border-left: 4px solid #aaa;
+    font-size: 14px;
+    line-height: 20px;
+}
+.timeline .timeline-item .marker {
+    background-color: #fff;
+    border: 4px solid #aaa;
+    height: 20px;
+    width: 20px;
+    border-radius: 100px;
+    display: block;
+    float: right;
+    margin-right: -14px;
+    z-index: 2000;
+    position: relative;
+}
+.timeline .timeline-item.active .info, .timeline .timeline-item:hover .info {
+    color: #444;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+}
+.timeline .timeline-item.active .year, .timeline .timeline-item:hover .year {
+    color: #9DB668;
+}
+.timeline .timeline-item .marker .dot {
+    background-color: white;
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+    display: block;
+    border: 4px solid white;
+    height: 12px;
+    width: 12px;
+    border-radius: 100px;
+    float: right;
+    z-index: 2000;
+    position: relative;
+}
+.timeline .timeline-item.active .marker .dot, .timeline .timeline-item:hover .marker .dot {
+    -webkit-transition: all 1s ease;
+    -moz-transition: all 1s ease;
+    transition: all 1s ease;
+    background-color: #9DB668;
+    box-shadow: inset 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+#centeredDiv { margin-right: auto; margin-left: auto; width: 800px; }
+
+.corner{
+    border-radius: 25px;
+    border: 2px solid #8AC007;
+}
+
+
+
+
+
+.rotate270 {
+    -webkit-transform: rotate(270deg);
+    -moz-transform: rotate(270deg);
+    -o-transform: rotate(270deg);
+    -ms-transform: rotate(270deg);
+    transform: rotate(270deg);
+}
+
+
+
+.body1 {
+	background-color: blue;
+}
+

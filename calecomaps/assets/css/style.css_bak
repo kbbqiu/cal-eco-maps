@@ -1,0 +1,381 @@
+
+body
+
+{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: normal;
+}
+
+h1
+
+{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: 500;
+  font-size: 2em;
+  margin: 0.80em 0em;
+  text-align: left;
+}
+
+h2
+
+{
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: 600;
+  font-size: 1.1em;
+}
+
+  
+h3
+
+{
+font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size:1em;
+  font-weight: 500;
+  font-style: italic;
+}
+  
+
+h4
+
+{
+ font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-weight: auto;
+  font-size: 1em;
+}
+
+h5
+
+{
+  font-family:"Trebuchet MS", Helvetica, sans-serif;
+  font-weight: 400;
+}
+
+  
+p
+
+{
+  font-size: 14px;
+  line-height: 1.5em;
+  width:100%;
+}
+
+
+p1
+
+{
+  font-size: 14px;
+  line-height: 1.5em;
+}
+
+.navbar {
+  margin-bottom: 20px;
+  z-index: 2
+}
+
+
+.wrapper {
+	width: 80%;
+	margin: 20px auto;
+	
+}
+.subheading {
+	font-weight: bold;
+    color:blue;
+	font-size: small;
+	text-transform: uppercase;
+
+
+}
+
+#map {
+	margin: 0 auto; 
+	width:100%; 
+	height:500px;
+	border: 1px solid #000;
+	z-index: 1
+	
+}
+
+
+
+#Table, #PIECV, #TotalQuantityReleased, #PWMPV {
+	padding: 10px;
+	float: left;
+}
+
+
+#Table {
+	width: 600px;
+	float: right
+	
+}
+
+
+#PIECV {
+	width: 600px;
+	
+	
+}
+
+#TotalQuantityReleased {
+	width: 600px;
+	margin-left: auto ;
+    margin-right: auto ;
+	
+}
+
+.TABLEPIE{
+	margin-left: auto ;
+    margin-right: auto ;
+	width:1250px
+	
+
+}
+
+
+#PWMPV {
+	width: 600px; 
+	margin-left: auto ;
+    margin-right: auto ;
+	
+}
+
+.CompanyName-TypeIndustry {
+	margin-left: auto;
+	margin-right: auto;
+	height: auto;
+	overflow: hidden;
+	width: 100%
+	
+}
+
+@media only screen and (max-width : 1263px) {
+	.CompanyName-TypeIndustry {
+	height: auto;
+	overflow: visible;
+	width: 800px
+}
+}
+
+#CompanyName{ 
+	text-align: left;
+	float: left;
+	width: auto;
+}
+
+@media only screen and (max-width : 1263px) {
+/* Styles */
+#CompanyName{ 
+	text-align: left;
+	float: none;
+	display: block;
+}
+}
+#SCORE{
+float: right;
+}
+
+#SCORE h2{
+margin-bottom: 0;
+margin-top: 10 px;
+font-weight: bold;
+font-size: 1.5em
+}
+
+#TypeIndustry {
+	float: left;
+	width: 100%
+}
+	#CompanyName h2 {
+	margin-bottom: 0;
+	margin-top: 10px;
+	/*color: #ffb300;*/
+}
+	#TypeIndustry h2 {
+	margin-bottom: 0;
+	margin-top: 10px;
+	/*<!--color: #539865;-->*/
+}	
+@media only screen and (max-width : 1263px) {
+
+	#TypeIndustry ,#SCORE{
+	float: left;
+	display: block;
+	text-align; left;
+}
+	#CompanyName h2 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+	#TypeIndustry h2, #SCORE h2 {
+	margin-bottom: 0;
+	margin-top: 0;
+}
+.TABLEPIE{
+	margin-left: auto ;
+    margin-right: auto ;
+	width:600px
+	}
+}
+
+
+.nav {
+font-family: Helvetica, Arial, sans-serif;
+
+}
+
+.navbar-custom {
+	background-color: #138000;
+	border-color: #138000;
+}
+.navbar-custom .navbar-brand {
+	color: #ffffff;
+}
+.navbar-custom .navbar-brand:hover, .navbar-custom .navbar-brand:focus {
+	color: #edebeb;
+}
+.navbar-custom .navbar-text {
+	color: #ffffff;
+}
+.navbar-custom .navbar-nav > li > a {
+	color: #ffffff;
+}
+.navbar-custom .navbar-nav > li > a:hover, .navbar-custom .navbar-nav > li > a:focus {
+	color: #ffffff;
+	background-color: #5aab5c;
+	
+}
+.navbar-custom .navbar-nav > .active > a, .navbar-custom .navbar-nav > .active > a:hover, .navbar-custom .navbar-nav > .active > a:focus {
+	color: #5aab5c;
+	background-color: #5aab5c;
+}
+.navbar-custom .navbar-nav > .open > a, .navbar-custom .navbar-nav > .open > a:hover, .navbar-custom .navbar-nav > .open > a:focus {
+	color: #ffffff;
+	background-color: #5aab5c;
+}
+.navbar-custom .navbar-toggle {
+	border-color: #5aab5c;
+}
+.navbar-custom .navbar-toggle:hover, .navbar-custom .navbar-toggle:focus {
+	background-color: #5aab5c;
+}
+.navbar-custom .navbar-toggle .icon-bar {
+	background-color: #ffffff;
+}
+.navbar-custom .navbar-collapse,
+.navbar-custom .navbar-form {
+	border-color: #ffffff;
+}
+.navbar-custom .navbar-link {
+	color: #ffffff;
+}
+.navbar-custom .navbar-link:hover {
+	color: #edebeb;
+}
+
+@media (max-width: 767px) {
+	.navbar-custom .navbar-nav .open .dropdown-menu > li > a {
+		color: #ffffff;
+		
+	}
+	.navbar-custom .navbar-nav .open .dropdown-menu > li > a:hover, .navbar-custom .navbar-nav .open .dropdown-menu > li > a:focus {
+		color: #edebeb;
+		background-color: #5aab5c;
+	}
+	.navbar-custom .navbar-nav .open .dropdown-menu > .active > a, .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:hover, .navbar-custom .navbar-nav .open .dropdown-menu > .active > a:focus {
+		color: #edebeb;
+		background-color:#5aab5c;
+	}
+
+}
+
+.teamPhoto
+{
+    text-align:center;
+    float:middle;
+    padding:1em;
+    width:90%;
+    margin:auto;
+}
+
+.indivBioPic
+
+{
+vertical-align:middle;
+width:20%;
+height:auto;
+padding-top:3%;
+padding-bottom:1em;
+}
+
+#floatRight
+
+{
+  float:right;
+}
+
+#floatLeft
+
+{
+  float:left;
+}
+
+
+.TextBox
+
+{
+  width:78%;
+  height:auto;
+  vertical-align:middle;
+
+}
+
+#ImageRight
+
+{
+  
+  text-align:right;
+  float:left;
+ 
+
+
+}
+
+#ImageLeft
+
+{ 
+  
+  text-align:left;
+  float:right;
+
+
+
+}
+
+.HorizontalLine
+
+{
+  width:100%;
+  height:0.2em;
+}
+
+#ToxicReleases, #Revenue, #Employee, #PWMA, #CancerRisk
+{
+width: 80%;
+height: 500px;
+margin: auto
+}
+
+#headerlogos
+{
+float: right
+}
+
+#Note
+{
+width: 80%;
+float: left;
+}
+
+
+
