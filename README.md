@@ -4,7 +4,7 @@
 
 UCLA TRI University Challenge 2015
 
-<a href = "http://www.environment.ucla.edu/ccep/calecomaps/">Cal Eco Maps<a/>
+<a href = "https://www.ioes.ucla.edu/calecomaps/">Cal Eco Maps<a/>
 
 Use the interactive map below to learn more about Los Angeles county Toxics Release Inventory
 (TRI) facilities near your neighborhood or workplace. Hover over an icon to see the facility’s name,
